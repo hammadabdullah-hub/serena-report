@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Serena Executive Report</title><link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#9A7B22">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="ISH Report">
+<meta name="apple-mobile-web-app-status-bar-style" content="default"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#F3EFE8;--card:#FBF9F5;--ink:#1d2b26;--mut:#6f6b62;--gold:#9A7B22;--grn:#0F7B6C;--red:#C0392B;--line:#e4ddcf}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:env(safe-area-inset-top) 0 calc(72px + env(safe-area-inset-bottom))}
+main{max-width:560px;margin:0 auto;padding:18px 16px}h1{font:600 30px Georgia,serif;margin:2px 0 4px}.eye{letter-spacing:.14em;font-size:11px;color:var(--mut);text-transform:uppercase}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;margin:14px 0}.big{font:600 44px Georgia,serif}.big small{font-size:22px;color:var(--gold)}
+.pill{display:inline-block;border-radius:99px;padding:3px 10px;font-size:12.5px;font-weight:600;margin:2px 4px 2px 0}.up{background:#dcefe9;color:var(--grn)}.dn{background:#f6dfda;color:var(--red)}
+table{width:100%;border-collapse:collapse}td,th{padding:9px 0;border-bottom:1px solid var(--line);text-align:right}td:first-child,th:first-child{text-align:left}th{font-size:11px;color:var(--mut);letter-spacing:.08em}
+.bar{display:flex;height:10px;border-radius:9px;overflow:hidden;margin:10px 0}.mut{color:var(--mut);font-size:13px}.g{color:var(--grn)}.r{color:var(--red)}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}nav button{flex:1;border:0;background:none;padding:12px 0;font-size:12px;color:var(--mut)}nav .on{color:var(--gold);font-weight:700}
+input,button.p{width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);font-size:16px;margin:6px 0}button.p{background:var(--gold);color:#fff;border:0;font-weight:700}
+#splash{position:fixed;inset:0;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9;transition:opacity .4s}#splash img{width:96px;border-radius:22px}
+.trk{position:relative;height:8px;background:#e6e1d6;border-radius:8px;margin:8px 0 3px}.fill{height:100%;border-radius:8px}.tick{position:absolute;top:-3px;width:2px;height:14px;background:#444}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.row b{font-size:15px}.sm{font-size:12.5px;color:var(--mut)}.nt{background:#ece7dc;color:#555}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid .card{margin:0}.kv{font:700 24px system-ui}
+.seg{display:flex;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px;margin:14px 0}.seg button{flex:1;border:0;border-radius:10px;padding:10px;background:none;font-weight:600;color:var(--mut)}.seg .on{background:var(--gold);color:#fff}a{color:var(--gold)}
+</style></head><body><div id="splash"><img src="icon-192.png" alt=""><p class="eye" style="margin-top:14px">Islamabad Serena Hotel</p></div><main id="app"></main><nav id="nav" hidden></nav><script src="xlsx.full.min.js"></script><script src="supabase.js"></script><script src="config.js"></script><script src="parse.js"></script><script src="app.js"></script></body></html>
